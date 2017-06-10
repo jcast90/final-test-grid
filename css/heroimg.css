@@ -1,0 +1,22 @@
+/*        user has to add  background-image: url(please add path); */
+
+.img-box {
+    background-image: url(../img/jackson.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.img-box .text-box {
+    padding: 20em 0;
+}
+
+.text-box h1 {
+    color: white;
+}

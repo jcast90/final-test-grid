@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Enter title of page</title>
+
+    <!-----GENERAL CSS------>
+    <link href=" https://fonts.googleapis.com/css?family=Khula|Open+Sans+Condensed:300|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!---CONSOLIDATES CSS QUICK FIX FRAMEWORK SHEETS. FOR INDIVIDUAL SHEETS REFER TO CCS FOLDER.--->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/jquery.sticky.css">
+
+    <!---FOR QUICK FIX GENERAL STYLING CLASSES REFER TO STYLING.CSS IN THE CCS FOLDER.--->
+
+    <!------JQUERY CDN------>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <!---CONSOLIDATES JS QUICK FIX FRAMEWORK SHEETS. FOR INDIVIDUAL SHEETS REFER TO JS FOLDER.--->
+    <script src="js/quick-fix.js"></script>
+    <script src="js/jquery.equalizeHeight.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.tooltip.js"></script>
+<script>
+		$(document).ready(function () {
+			$('.tooltip').tooltip({
+//change default options here//
+				"backgroundColor": "#000",
+				"color": "#FFF",
+				"fontSize": "12px",
+				"border": "solid #f6e902"
+			});
+            $('aside').stickyAside();
+		});
+	</script>
+                    
+
+    <!------PLUGIN SCRIPTS GO HERE------>
+</head>
+
+<!------BODY OF DOCUMENT ------>
+
+<body>
+    <nav class="menu">
+        <div class="menu-header">
+            <span class="fa"></span>Menu
+        </div>
+        <ul class="main-menu">
+            <li> <a href="#vengeance">Vengeance </a> </li>
+            <li> <a href="#mrglass">Mr. Glass </a> </li>
+            <li class="subMenu" data-trigger="submenu">
+                <a href="#">Mr.Jackson  <span class="fa"> </span> </a>
+                <ul>
+                    <li data-trigger="submenu"> <a href="#">SubItem 1 </a> </li>
+                    <li data-trigger="submenu"> <a href="#">SubItem 2 </a> </li>
+                </ul>
+            </li>
+
+        </ul>
+    </nav>
+
+    <div class="img-box">
+        <div class="text-box">
+            <h1>Samuel L Jackson</h1>
+
+        </div>
+    </div>
+
+
+    <main>
+        <div class="grid grid-tab">
+            <div class="col-12-12" id="vengeance">
+                <h1 class="text-center">My Name Is The Lord When I Lay My Vengeance Upon Thee</h1>
+            </div>
+        </div>
+        <div class="grid grid-tab">
+            <div class="col-4-12">
+                <!------YOUR GRID CLASS CHOICE ------>
+                <div class="content">
+                    <!-- start slipsum code -->
+
+                    <p>The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother's keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee. </p>
+                </div>
+            </div>
+            <div class="col-4-12">
+                <!------YOUR GRID CLASS CHOICE ------>
+                <div class="content">
+                    <!-- start slipsum code -->
+
+                    <p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass. </p>
+                    <img class="image-responsive drop-shadow" src="img/mrGlass.jpg" alt="Mr.Glass">
+                </div>
+            </div>
+            <div class="col-4-12">
+                <!------YOUR GRID CLASS CHOICE ------>
+                <div class="content">
+                    <!-- start slipsum code -->
+
+                    <p>Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-tab" id="stories-1">
+            <div class="col-3-12">
+                <div class="story">
+                    <p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit. </p>
+                </div>
+            </div>
+
+            <div class="col-3-12">
+                <div class="story">
+                    <p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing. </p>
+                </div>
+            </div>
+
+            <div class="col-3-12">
+                <div class="story">
+                    <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in <a class="tooltip" data-tip-type="text" tooltip-title="An gallery of lungs" href="https://www.google.com">our lungs</a>, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends. </p>
+                </div>
+            </div>
+
+            <div class="col-3-12">
+                <div class="story">
+
+                    <p>Look, just because I don't be givin' no man a foot massage don't make it right for Marsellus to throw Antwone into a glass motherfuckin' house, fuckin' up the way the nigger talks. Motherfucker do that shit to me, he better paralyze my ass, 'cause I'll kill the motherfucker, know what I'm sayin'? </p>
+                </div>
+            </div>
+
+        </div>
+
+
+    <aside>This is a sticky aside</aside>
+
+    </main>
+    <div class="footer footer-center height-100">
+        <p>This is what Samuel would have wanted. Thank you.</p>
+    </div>
+
+</body>
+
+</html>
